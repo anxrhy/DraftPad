@@ -14,6 +14,13 @@
 		351375EA309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E9309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem */; };
 		351375EC309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */ = {isa = PBXBuildFile; productRef = 351375EB309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS */; };
 		351375EE309A6734008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */ = {isa = PBXBuildFile; productRef = 351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */; };
+		351375F1309A75D7008E5DA8 /* SwiftMarkdownEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 351375F0309A75D7008E5DA8 /* SwiftMarkdownEditor */; };
+		351375F3309A75D7008E5DA8 /* SwiftMarkdownEditorDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 351375F2309A75D7008E5DA8 /* SwiftMarkdownEditorDesignSystem */; };
+		351375F5309A75D7008E5DA8 /* SwiftMarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 351375F4309A75D7008E5DA8 /* SwiftMarkdownView */; };
+		351375F7309A75D7008E5DA8 /* SwiftMarkdownViewCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 351375F6309A75D7008E5DA8 /* SwiftMarkdownViewCatalog */; };
+		351375F9309A75D7008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 351375F8309A75D7008E5DA8 /* SwiftMarkdownViewDesignSystem */; };
+		351375FB309A75D7008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */ = {isa = PBXBuildFile; productRef = 351375FA309A75D7008E5DA8 /* SwiftMarkdownViewHighlightJS */; };
+		351375FD309A75D7008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */ = {isa = PBXBuildFile; productRef = 351375FC309A75D7008E5DA8 /* SwiftMarkdownViewLaTeX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +41,17 @@
 			files = (
 				351375E2309A6734008E5DA8 /* SwiftMarkdownEditor in Frameworks */,
 				351375E6309A6734008E5DA8 /* SwiftMarkdownView in Frameworks */,
+				351375F1309A75D7008E5DA8 /* SwiftMarkdownEditor in Frameworks */,
+				351375F9309A75D7008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */,
+				351375FB309A75D7008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */,
 				351375E8309A6734008E5DA8 /* SwiftMarkdownViewCatalog in Frameworks */,
 				351375EA309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */,
 				351375EE309A6734008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */,
+				351375F5309A75D7008E5DA8 /* SwiftMarkdownView in Frameworks */,
+				351375F3309A75D7008E5DA8 /* SwiftMarkdownEditorDesignSystem in Frameworks */,
 				351375EC309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */,
+				351375FD309A75D7008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */,
+				351375F7309A75D7008E5DA8 /* SwiftMarkdownViewCatalog in Frameworks */,
 				351375E4309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem in Frameworks */,
 			);
 		};
@@ -85,6 +99,13 @@
 				351375E9309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem */,
 				351375EB309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS */,
 				351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */,
+				351375F0309A75D7008E5DA8 /* SwiftMarkdownEditor */,
+				351375F2309A75D7008E5DA8 /* SwiftMarkdownEditorDesignSystem */,
+				351375F4309A75D7008E5DA8 /* SwiftMarkdownView */,
+				351375F6309A75D7008E5DA8 /* SwiftMarkdownViewCatalog */,
+				351375F8309A75D7008E5DA8 /* SwiftMarkdownViewDesignSystem */,
+				351375FA309A75D7008E5DA8 /* SwiftMarkdownViewHighlightJS */,
+				351375FC309A75D7008E5DA8 /* SwiftMarkdownViewLaTeX */,
 			);
 			productName = DraftPad;
 			productReference = 351375BF309A5897008E5DA8 /* DraftPad.app */;
@@ -115,7 +136,7 @@
 			mainGroup = 351375B6309A5897008E5DA8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				351375E0309A6734008E5DA8 /* XCLocalSwiftPackageReference "../../../Downloads/swift-markdown-view-main" */,
+				351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 351375C0309A5897008E5DA8 /* Products */;
@@ -349,12 +370,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		351375E0309A6734008E5DA8 /* XCLocalSwiftPackageReference "../../../Downloads/swift-markdown-view-main" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../../Downloads/swift-markdown-view-main";
+/* Begin XCRemoteSwiftPackageReference section */
+		351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/anxrhy/swift-markdown-view";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		351375E1309A6734008E5DA8 /* SwiftMarkdownEditor */ = {
@@ -383,6 +408,41 @@
 		};
 		351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownViewLaTeX;
+		};
+		351375F0309A75D7008E5DA8 /* SwiftMarkdownEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownEditor;
+		};
+		351375F2309A75D7008E5DA8 /* SwiftMarkdownEditorDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownEditorDesignSystem;
+		};
+		351375F4309A75D7008E5DA8 /* SwiftMarkdownView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownView;
+		};
+		351375F6309A75D7008E5DA8 /* SwiftMarkdownViewCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownViewCatalog;
+		};
+		351375F8309A75D7008E5DA8 /* SwiftMarkdownViewDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownViewDesignSystem;
+		};
+		351375FA309A75D7008E5DA8 /* SwiftMarkdownViewHighlightJS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
+			productName = SwiftMarkdownViewHighlightJS;
+		};
+		351375FC309A75D7008E5DA8 /* SwiftMarkdownViewLaTeX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 351375EF309A75D7008E5DA8 /* XCRemoteSwiftPackageReference "swift-markdown-view" */;
 			productName = SwiftMarkdownViewLaTeX;
 		};
 /* End XCSwiftPackageProductDependency section */
