@@ -6,6 +6,16 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		351375E2309A6734008E5DA8 /* SwiftMarkdownEditor in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E1309A6734008E5DA8 /* SwiftMarkdownEditor */; };
+		351375E4309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E3309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem */; };
+		351375E6309A6734008E5DA8 /* SwiftMarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E5309A6734008E5DA8 /* SwiftMarkdownView */; };
+		351375E8309A6734008E5DA8 /* SwiftMarkdownViewCatalog in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E7309A6734008E5DA8 /* SwiftMarkdownViewCatalog */; };
+		351375EA309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 351375E9309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem */; };
+		351375EC309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */ = {isa = PBXBuildFile; productRef = 351375EB309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS */; };
+		351375EE309A6734008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */ = {isa = PBXBuildFile; productRef = 351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		351375BF309A5897008E5DA8 /* DraftPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraftPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -22,6 +32,13 @@
 		351375BC309A5897008E5DA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				351375E2309A6734008E5DA8 /* SwiftMarkdownEditor in Frameworks */,
+				351375E6309A6734008E5DA8 /* SwiftMarkdownView in Frameworks */,
+				351375E8309A6734008E5DA8 /* SwiftMarkdownViewCatalog in Frameworks */,
+				351375EA309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem in Frameworks */,
+				351375EE309A6734008E5DA8 /* SwiftMarkdownViewLaTeX in Frameworks */,
+				351375EC309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS in Frameworks */,
+				351375E4309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -60,6 +77,15 @@
 				351375C1309A5897008E5DA8 /* DraftPad */,
 			);
 			name = DraftPad;
+			packageProductDependencies = (
+				351375E1309A6734008E5DA8 /* SwiftMarkdownEditor */,
+				351375E3309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem */,
+				351375E5309A6734008E5DA8 /* SwiftMarkdownView */,
+				351375E7309A6734008E5DA8 /* SwiftMarkdownViewCatalog */,
+				351375E9309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem */,
+				351375EB309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS */,
+				351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */,
+			);
 			productName = DraftPad;
 			productReference = 351375BF309A5897008E5DA8 /* DraftPad.app */;
 			productType = "com.apple.product-type.application";
@@ -88,6 +114,9 @@
 			);
 			mainGroup = 351375B6309A5897008E5DA8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				351375E0309A6734008E5DA8 /* XCLocalSwiftPackageReference "../../../Downloads/swift-markdown-view-main" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 351375C0309A5897008E5DA8 /* Products */;
 			projectDirPath = "";
@@ -319,6 +348,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		351375E0309A6734008E5DA8 /* XCLocalSwiftPackageReference "../../../Downloads/swift-markdown-view-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/swift-markdown-view-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		351375E1309A6734008E5DA8 /* SwiftMarkdownEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownEditor;
+		};
+		351375E3309A6734008E5DA8 /* SwiftMarkdownEditorDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownEditorDesignSystem;
+		};
+		351375E5309A6734008E5DA8 /* SwiftMarkdownView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownView;
+		};
+		351375E7309A6734008E5DA8 /* SwiftMarkdownViewCatalog */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownViewCatalog;
+		};
+		351375E9309A6734008E5DA8 /* SwiftMarkdownViewDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownViewDesignSystem;
+		};
+		351375EB309A6734008E5DA8 /* SwiftMarkdownViewHighlightJS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownViewHighlightJS;
+		};
+		351375ED309A6734008E5DA8 /* SwiftMarkdownViewLaTeX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMarkdownViewLaTeX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 351375B7309A5897008E5DA8 /* Project object */;
 	validationLevel = 1;

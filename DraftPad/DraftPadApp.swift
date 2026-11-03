@@ -13,5 +13,7 @@ struct DraftPadApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 300, height: 500)
     }
 }
